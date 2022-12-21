@@ -14,6 +14,7 @@
 		1F3DCD4F2952345F00EC7AFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F3DCD4E2952345F00EC7AFD /* Assets.xcassets */; };
 		1F3DCD522952345F00EC7AFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F3DCD502952345F00EC7AFD /* LaunchScreen.storyboard */; };
 		1F3DCD5D29523B7A00EC7AFD /* Sign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3DCD5C29523B7A00EC7AFD /* Sign.swift */; };
+		1FC0BF3D29538C0E00E9940B /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC0BF3C29538C0E00E9940B /* GameState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		1F3DCD512952345F00EC7AFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F3DCD532952345F00EC7AFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F3DCD5C29523B7A00EC7AFD /* Sign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sign.swift; sourceTree = "<group>"; };
+		1FC0BF3C29538C0E00E9940B /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				1F3DCD492952345D00EC7AFD /* ViewController.swift */,
 				1F3DCD4B2952345D00EC7AFD /* Main.storyboard */,
 				1F3DCD5C29523B7A00EC7AFD /* Sign.swift */,
+				1FC0BF3C29538C0E00E9940B /* GameState.swift */,
 				1F3DCD4E2952345F00EC7AFD /* Assets.xcassets */,
 				1F3DCD502952345F00EC7AFD /* LaunchScreen.storyboard */,
 				1F3DCD532952345F00EC7AFD /* Info.plist */,
@@ -143,6 +146,7 @@
 			files = (
 				1F3DCD4A2952345D00EC7AFD /* ViewController.swift in Sources */,
 				1F3DCD462952345D00EC7AFD /* AppDelegate.swift in Sources */,
+				1FC0BF3D29538C0E00E9940B /* GameState.swift in Sources */,
 				1F3DCD5D29523B7A00EC7AFD /* Sign.swift in Sources */,
 				1F3DCD482952345D00EC7AFD /* SceneDelegate.swift in Sources */,
 			);

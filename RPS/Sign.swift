@@ -7,9 +7,24 @@
 
 import Foundation
 
-enum Sign
-{
+enum Sign {
     case rock
     case paper
-    case scissor
+    case scissors
+    
+    var signChoice: String{
+        switch self{
+        case .rock:
+            return "👊🏽"
+        case .paper:
+            return "✋🏽"
+        case .scissors:
+            return "✌🏽"
+        }
+    }
+    
+    func checkWin(sign: Sign){
+        if self == 
+        
+    }
 }
